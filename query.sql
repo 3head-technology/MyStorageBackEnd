@@ -8,4 +8,5 @@ CREATE TABLE `user` (
    PRIMARY KEY(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `user` (`id`, `username`, `password`) VALUES (NULL, 'max', '123');
+INSERT INTO `user` (`username`, `password`) VALUES ('max', '123');
+INSERT INTO `user` (`username`, `password`) VALUES ('lenin', '123');
