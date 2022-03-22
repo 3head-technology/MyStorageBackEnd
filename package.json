@@ -10,10 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mysql": "^2.18.1"
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3"
   },
   "devDependencies": {
-    "eslint": "^8.11.0"
+    "eslint": "^8.11.0",
+    "eslint-plugin-vue": "^8.5.0"
   }
 }
