@@ -1,0 +1,19 @@
+{
+  "name": "mystoragebackend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
