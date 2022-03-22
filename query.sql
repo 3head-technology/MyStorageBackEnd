@@ -7,3 +7,5 @@ CREATE TABLE `user` (
   `password` varchar(32) NOT NULL,
    PRIMARY KEY(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `user` (`id`, `username`, `password`) VALUES (NULL, 'max', '123');
