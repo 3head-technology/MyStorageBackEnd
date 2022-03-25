@@ -1,5 +1,5 @@
 {
-  "api": {
+  "httpApi": {
     "host": "127.0.0.1",
     "port": 3000,
     "ssl": {
@@ -16,5 +16,8 @@
     "password": "root",
     "name": "mydb",
     "dialect": "mysql"
+  },
+  "requestOrigin": {
+    "host": "http://localhost"
   }
 }

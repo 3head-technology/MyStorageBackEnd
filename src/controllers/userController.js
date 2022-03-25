@@ -16,6 +16,7 @@ class UserController {
                 (err, results) => {
                     if (results.length > 0) {
                         response.json({
+                            username: userDescriptor.username,
                             token: Utilities.generateAccessToken({ username: userDescriptor.username, }),
                         });
                     }
